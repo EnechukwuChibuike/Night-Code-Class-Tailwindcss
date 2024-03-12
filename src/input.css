@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header {
+  @apply flex justify-between px-10 items-center h-[10vh] shadow-md;
+}
+
+nav {
+  @apply space-x-10 hidden md:block;
+}
+
+.menu {
+  @apply md:hidden text-2xl;
+}
+
+.landing {
+  @apply grid justify-items-center text-center content-center font-mono h-[90vh] gap-5 bg-cover text-white;
+}
+
+.landing button {
+  @apply px-10 py-4 border-[1px] border-gray-100 hover:opacity-40;
+}
